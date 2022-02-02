@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Layout from '../components/Layout'
-import Home from '../components/Home'
+import Layout from '../src/components/Layout'
+import Home from '../src/components/Home'
 
 //Investigar sobre los robots og:
 

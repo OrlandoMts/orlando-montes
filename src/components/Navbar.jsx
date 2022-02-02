@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react';
 import Link from 'next/link';
 import { BiMenu } from 'react-icons/bi';
 import Menu from './Menu';
-import AppContext from '../src/context/AppContext';
+import AppContext from '../context/AppContext';
 import Dropdown from './Dropdown';
 
 const Navbar = () => {
@@ -20,9 +20,10 @@ const Navbar = () => {
         {toggleMenu && <Menu />}
       </div>
       <div className='hidden md:flex md:container my-1.5 p-4 md:p-8 lg:p-12 justify-end'>
+        <h2>Nombre cool</h2>
         <ul className='flex md:space-x-8 space-x-12 items-baseline'>
             <li><Link href="/" return false><a className='md:text-lg lg:text-xl'>Inicio</a></Link></li>
-            <li><Link href="/proyects"><a className='md:text-lg lg:text-xl'>Proyectos</a></Link></li>
+            <li><Link href="/projects"><a className='md:text-lg lg:text-xl'>Proyectos</a></Link></li>
             <li><Link href="/contact"><a className='md:text-lg lg:text-xl'>Contacto</a></Link></li>
             <li><Dropdown /></li>
         </ul>

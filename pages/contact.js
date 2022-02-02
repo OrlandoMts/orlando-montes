@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import Contact from '../components/Contact';
+import Layout from '../src/components/Layout';
+import Contact from '../src/components/Contact';
 import Head from 'next/head';
 
 const contact = () => {

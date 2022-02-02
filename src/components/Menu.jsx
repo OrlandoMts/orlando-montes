@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
 import { BiX } from 'react-icons/bi';
-import AppContext from '../src/context/AppContext';
+import AppContext from '../context/AppContext';
 
 const Navbar = () => {
 
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className='flex md:container my-1.5 p-4 md:p-8 lg:p-12'>
                 <ul className='flex-col m-5 space-y-2.5'>
                     <li><Link href="/" return false><a className='text-lg' onClick={handleToggleMenu}>Inicio</a></Link></li>
-                    <li><Link href="/proyects"><a className='text-lg' onClick={handleToggleMenu}>Proyectos</a></Link></li>
+                    <li><Link href="/projects"><a className='text-lg' onClick={handleToggleMenu}>Proyectos</a></Link></li>
                     <li><Link href="/contact"><a className='text-lg' onClick={handleToggleMenu}>Contacto</a></Link></li>
                 </ul>
             </div>
