@@ -1,20 +1,34 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '../../styles/Home.module.css';
+import { DiGithubBadge } from "react-icons/di";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-        <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        Hecho con pasión{' '}
-        <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
-        </a>
+    <footer className="flex justify-around w-full h-20 p-4 absolute bottom-0 border-solid border-y-2 border-b-0 border-opacity-80 border-gray-500">
+        <div className='mt-2'>
+          <p>Hecho con pasión 💙</p>
+        </div>
+        <div className='flex justify-evenly mt-2 w-1/4'>
+          <a
+          href="https://www.instagram.com/orlando.monts/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <FaInstagram className='cursor-pointer' size='2rem'/>
+          </a>
+          <a 
+          href="https://www.linkedin.com/in/orlando-daniel-montes-antonio-6914331b5/"
+          target="_blank"
+          rel="noopener noreferrer">
+            <FaLinkedin className='cursor-pointer w-6' size='2rem'/>
+          </a>
+          <a href="https://github.com/OrlandoMts"
+          target="_blank"
+          rel="noopener noreferrer">
+            <DiGithubBadge className='cursor-pointer' width={300} size='2rem'/>
+          </a>
+        </div>
     </footer>
   );
 };

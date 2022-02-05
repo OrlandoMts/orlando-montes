@@ -6,9 +6,17 @@ import rickandmorty from "./assets/img/rick-morty.png";
 import todo from "./assets/img/todo.png";
 import insure from "./assets/img/insure.png";
 import eshop from "./assets/img/eshop.png";
-import sneakers from "./assets/img/sneakers.png"
+import sneakers from "./assets/img/sneakers.png";
+import merchandise from "./assets/img/merchandise.png";
 
 export const projects = [
+    {
+      'img': merchandise,
+      'title': 'Merchandise app',
+      'desc': 'Merchandise app es un proyecto que hice, y aprendí a implementar API como la de Google maps y Paypal, ademas que hice uso de algunos hooks de React.',
+      'sitio': 'https://merchandise-app-ff8c7.web.app/',
+      'repo': 'https://github.com/OrlandoMts/merchandise',
+    },
     {
       'img': sneakers,
       'title': 'Sneakers',

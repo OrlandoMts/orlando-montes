@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../src/components/Layout'
 import Home from '../src/components/Home'
+import Footer from '../src/components/Footer'
 
 //Investigar sobre los robots og:
 
@@ -16,6 +17,7 @@ export default function index() {
 
         <main>
           <Home />
+          <Footer />
         </main>
       </div>
     </Layout>
