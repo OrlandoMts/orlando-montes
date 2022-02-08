@@ -1,9 +1,0 @@
-Falta:
-
-Darle estilos a la parte inicial y poner un texto ganador,
-conseguir tipografia y paleta de colores
-Manejar animaciones
-Buscar un logo
-Darle estilos a los errores en el formulario
-Manejar las variables de entorno en next
-Investigar sobre el SEO y los robost de og: en tailwinds

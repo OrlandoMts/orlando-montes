@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Link from 'next/link';
 import { BiX } from 'react-icons/bi';
 import AppContext from '../context/AppContext';
+import 'animate.css';
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
     }
 
     return ( 
-        <nav className='flex flex-col absolute z-10 top-0 bg-gray-600 w-80 h-80 justify-center content-around'>
+        <nav className='flex flex-col absolute z-10 top-0 left-0 bg-gray-600 w-80 h-80 justify-center content-around animate__animated animate__backInLeft'>
             <div className='flex justify-end px-10'>
                 <BiX size='2rem' onClick={handleToggleMenu}/>
             </div>

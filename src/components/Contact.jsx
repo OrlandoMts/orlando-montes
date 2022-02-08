@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
-
+import 'animate.css'
 
 const Contact = () => {
 
@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='flex justify-center'>
+      <div className='flex justify-center animate__animated animate__fadeInUp'>
         <div className="w-3/4 sm:w-1/2 md:grid p-4">
           <div className="mt-5 md:mt-0 md:col-span-2">
             <form onSubmit={handleSubmit(onSubmit)} ref={form}>
