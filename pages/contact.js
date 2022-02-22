@@ -10,8 +10,10 @@ const contact = () => {
           <title>Contacto</title>
           <meta name="description" content="Información de contacto" />
           {/* <link rel="icon" href="/favicon.ico" /> //pendiente */}
-        </Head>
-      <Contact/>
+      </Head>
+      <div className='bg-[#f6f6f6] h-[90vh]'>
+        <Contact/>
+      </div>  
     </Layout>
     );
 };

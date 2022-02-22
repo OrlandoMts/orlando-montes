@@ -11,7 +11,9 @@ const proyects = () => {
             <meta name="description" content="Lista de proyectos" />
             {/* <link rel="icon" href="/favicon.ico" /> //pendiente */}
           </Head>
-          <ProjectsList />
+          <div className='bg-[#f6f6f6]'>
+            <ProjectsList />
+          </div>
       </Layout>
   );
 };

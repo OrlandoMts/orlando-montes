@@ -23,6 +23,7 @@ const Contact = () => {
     };
 
     sendEmail(contactEmail);
+    alert("¡Gracias! Pronto estaremos en contacto.");
   };
 
   const sendEmail = (e) => {
@@ -38,8 +39,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className='flex justify-center animate__animated animate__fadeInUp'>
-        <div className="w-3/4 sm:w-1/2 md:grid p-4">
+      <div className='flex justify-center animate__animated animate__fadeInUp pt-10'>
+        <div className="w-[85%] sm:w-1/2 md:grid p-4">
           <div className="mt-5 md:mt-0 md:col-span-2">
             <form onSubmit={handleSubmit(onSubmit)} ref={form}>
               <div className="shadow sm:rounded-md sm:overflow-hidden">
@@ -47,7 +48,7 @@ const Contact = () => {
                   <div className="w-full">
                     <div className="w-full">
                       <div className='flex justify-center w-full'>
-                        <h2 className='text-2xl mb-5 sm:text-4xl'>Contacto</h2>
+                        <h2 className='text-2xl mb-5 sm:text-4xl text-[#387373]'>Contacto</h2>
                       </div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                         Nombre
@@ -125,7 +126,7 @@ const Contact = () => {
                         <button type='submit'
                           className="w-full flex items-center justify-center px-8 py-3 border 
                           border-transparent text-base font-medium rounded-md text-white 
-                          bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 
+                          bg-[#387373] md:py-4 md:text-lg md:px-10 
                           hover:cursor-wait"
                         >Enviar mensaje</button>
                       </div>

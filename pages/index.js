@@ -15,7 +15,7 @@ export default function index() {
           {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
 
-        <main>
+        <main className='bg-[#f6f6f6] md:h-[83vh]'>
           <Home />
           <Footer />
         </main>
