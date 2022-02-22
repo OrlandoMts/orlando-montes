@@ -19,7 +19,7 @@ const Navbar = () => {
         {toggleMenu && <Menu />}
       </div>
       <div className='ml-4 sm:ml-6'>
-        <Link href="/"><h2>Nombre cool</h2></Link>
+        <Link href="/"><h2>Logo portafolio</h2></Link>
       </div>
       <div className='hidden md:flex md:container my-1.5 p-4 md:p-8 lg:p-12 justify-end'>
         <ul className='flex md:space-x-8 space-x-12 items-baseline'>
