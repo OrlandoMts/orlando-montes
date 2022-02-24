@@ -9,7 +9,7 @@ const contact = () => {
       <Head>
           <title>Contacto</title>
           <meta name="description" content="Información de contacto" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.svg" />
       </Head>
       <div className='bg-[#f6f6f6] h-[90vh]'>
         <Contact/>
