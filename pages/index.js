@@ -3,8 +3,6 @@ import Layout from '../src/components/Layout'
 import Home from '../src/components/Home'
 import Footer from '../src/components/Footer'
 
-//Investigar sobre los robots og:
-
 export default function index() {
   return (
     <Layout>
@@ -12,10 +10,10 @@ export default function index() {
         <Head>
           <title>Inicio</title>
           <meta name="description" content="Conoceme" />
-          {/* <link rel="icon" href="/favicon.ico" /> */}
+          <link rel="icon" href="/favicon.svg" />
         </Head>
 
-        <main className='bg-[#f6f6f6] md:h-[83vh]'>
+        <main className='bg-[#f6f6f6] md:h-[100%]'>
           <Home />
           <Footer />
         </main>
