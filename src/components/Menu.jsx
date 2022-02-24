@@ -13,15 +13,15 @@ const Navbar = () => {
     }
 
     return ( 
-        <nav className='flex flex-col absolute z-10 top-0 left-0 bg-gray-600 w-80 h-80 justify-center content-around animate__animated animate__backInLeft'>
+        <nav className='flex flex-col absolute z-10 top-0 left-0 bg-[#E4F2E7] w-80 h-80 justify-center content-around rounded-md animate__animated animate__backInLeft'>
             <div className='flex justify-end px-10'>
                 <BiX size='2rem' onClick={handleToggleMenu}/>
             </div>
             <div className='flex md:container my-1.5 p-4 md:p-8 lg:p-12'>
-                <ul className='flex-col m-5 space-y-2.5'>
-                    <li><Link href="/" return false><a className='text-lg' onClick={handleToggleMenu}>Inicio</a></Link></li>
-                    <li><Link href="/projects"><a className='text-lg' onClick={handleToggleMenu}>Proyectos</a></Link></li>
-                    <li><Link href="/contact"><a className='text-lg' onClick={handleToggleMenu}>Contacto</a></Link></li>
+                <ul className='flex-col m-5'>
+                    <li className='mb-4'><Link href="/"><a className='text-2xl text-[#387373]' onClick={handleToggleMenu}>Inicio</a></Link></li>
+                    <li className='mb-4'><Link href="/projects"><a className='text-2xl text-[#387373]' onClick={handleToggleMenu}>Proyectos</a></Link></li>
+                    <li className='mb-4'><Link href="/contact"><a className='text-2xl text-[#387373]' onClick={handleToggleMenu}>Contacto</a></Link></li>
                 </ul>
             </div>
         </nav>
