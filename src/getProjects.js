@@ -8,8 +8,17 @@ import insure from "./assets/img/insure.png";
 import eshop from "./assets/img/eshop.png";
 import sneakers from "./assets/img/sneakers.png";
 import merchandise from "./assets/img/merchandise.png";
+import pokedux from "./assets/img/pokedux.png";
+
 
 export const projects = [
+    {
+      'img': pokedux,
+      'title': 'Pokedux',
+      'desc': '¡Encuentra tu pokemon favorito! En este proyecto implementé redux para manejar el estado completo de la aplicación.',
+      'sitio': 'https://pokedux-160e9.web.app/',
+      'repo': 'https://github.com/OrlandoMts/pokedux',
+    },
     {
       'img': merchandise,
       'title': 'Merchandise app',
