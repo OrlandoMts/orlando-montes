@@ -9,9 +9,23 @@ import eshop from "./assets/img/eshop.png";
 import sneakers from "./assets/img/sneakers.png";
 import merchandise from "./assets/img/merchandise.png";
 import pokedux from "./assets/img/pokedux.png";
-
+import miscelanea from "./assets/img/miscelanea.png";
+import django_post from "./assets/img/django_post.png";
 
 export const projects = [
+    {
+      'img': django_post,
+      'title': 'Django post',
+      'desc': 'Realice un CRUD hecho con python usando el Framework Django, es un pequeño blog que utliza sqlLite. Este proyecto no esta en linea.',
+      'repo': 'https://github.com/OrlandoMts/python-post',
+    },
+    {
+      'img': miscelanea,
+      'title': 'Tiendita',
+      'desc': 'Mi familia cuenta con una miscelanea y para no estar preguntando los precios hice una app con React.js, Firebase y SweetAlert.',
+      'sitio': 'https://tiendita-henna.vercel.app/',
+      'repo': 'https://github.com/OrlandoMts/tiendita',
+    },
     {
       'img': pokedux,
       'title': 'Pokedux',
