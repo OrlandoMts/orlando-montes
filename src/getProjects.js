@@ -11,8 +11,15 @@ import merchandise from "./assets/img/merchandise.png";
 import pokedux from "./assets/img/pokedux.png";
 import miscelanea from "./assets/img/miscelanea.png";
 import django_post from "./assets/img/django_post.png";
+import login from "./assets/img/login.png";
 
 export const projects = [
+    {
+      'img': login,
+      'title': 'Inicio de sesion',
+      'desc': 'Cree un login que mantiene una sesion activa utilizando JWT y cookies. Utilice Nodejs con Express para el backend y MySql para la bd.',
+      'repo': 'https://github.com/OrlandoMts/login-express',
+    },
     {
       'img': django_post,
       'title': 'Django post',
